@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cylnder, Power and paints</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Cylinder</h1>
+        <div class="content">
+            <input type="number" id="radius" value="" placeholder="Enter Radius"><br>
+            <input type="number" id="height" value="" placeholder="Enter Height"><br>
+            <!-- <input  id="result" value="" placeholder="Result" disabled><br> -->
+            <button onclick="volume()">Calculate Volume</button><br>
+            <button onclick="surfaceArea();">Calculate Surface Area</button><br>
+            <p id="result">Result:</p>
+
+        </div>
+        <h1>Power</h1>
+        <div class="content">
+            <input type="number" id="current" placeholder="Enter Current"><br>
+            <input type="number" id="volt" placeholder="Enter Voltage"><br>
+            
+            <button onclick="power();">Calculate Power</button><br>
+           
+            <p id="power">Result:</p><br>
+        </div>
+        <h1>Paints </h1>
+        <div class="content"></div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
